@@ -1,6 +1,6 @@
 # Maturitní Příklady v Pythonu 🎓🐍
 
-Tento repozitář obsahuje řešení vybraných maturitních příkladů v programovacím jazyce Python. Slouží jako studijní materiál pro přípravu na maturitní zkoušku z programování.
+Tento repozitář obsahuje řešení vybraných maturitních příkladů v programovacím jazyce Python. Slouží jako studijní materiál pro přípravu na maturitní zkoušku z informatiky.
 
 ## Struktura repozitáře 📂
 
