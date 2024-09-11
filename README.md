@@ -11,19 +11,9 @@ Každý příklad je uložen v samostatné složce s vlastním skriptem a krátk
 
 Pro spuštění kteréhokoli příkladu na svém počítači, je nutné mít nainstalovaný Python (doporučujeme verzi 3.x).
 
-1. Klonujte tento repozitář:
+Git clone:
     ```bash
-    git clone https://github.com/tvoje-username/maturitni-priklady-python.git
-    ```
-
-2. Přejděte do složky s příkladem:
-    ```bash
-    cd maturitni-priklad-01
-    ```
-
-3. Spusťte Python skript:
-    ```bash
-    python3 priklad.py
+    git clone [https://github.com/Mrikan8/Maturita.git]
     ```
 
 
