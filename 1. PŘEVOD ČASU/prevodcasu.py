@@ -1,5 +1,4 @@
-print('Zadej čas v sekundách: ')
-cas = int(input())
+cas = int(input('Zadej čas v sekundách: '))
 
 dny = cas // 86400
 zbyvajici_sekundy = cas % 86400
