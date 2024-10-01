@@ -1,0 +1,17 @@
+Zadání:
+1. Věk a plnoletost:
+
+Napiš program, který zjistí, zda je uživatel plnoletý. Program by měl nejprve požádat uživatele o zadání jeho věku. 
+Pokud je věk větší nebo roven 18, program vypíše „Jste plnoletý“. Pokud je věk menší než 18, program vypíše „Nejste plnoletý“.
+
+2. Porovnání dvou čísel:
+
+Vytvoř program, který požádá uživatele o dvě čísla a poté zjistí, které z těchto čísel je větší. Vypiš větší číslo, nebo pokud jsou stejná, vypiš, že čísla jsou stejná.
+
+2. Pozitivní, negativní nebo nula:
+
+Napiš program, který požádá uživatele o zadání čísla a vypíše, zda je číslo pozitivní, negativní nebo nula.
+
+3. Sudé nebo liché číslo:
+
+Vytvoř program, který zjistí, zda je uživatelem zadané číslo sudé nebo liché.
