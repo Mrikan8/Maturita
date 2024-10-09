@@ -6,7 +6,8 @@ Pokud je věk větší nebo roven 18, program vypíše „Jste plnoletý“. Pok
 
 2. Porovnání dvou čísel:
 
-Vytvoř program, který požádá uživatele o dvě čísla a poté zjistí, které z těchto čísel je větší. Vypiš větší číslo, nebo pokud jsou stejná, vypiš, že čísla jsou stejná.
+Vytvoř program, který požádá uživatele o dvě čísla a poté zjistí, které z těchto čísel je větší. 
+Vypiš větší číslo, nebo pokud jsou stejná, vypiš, že čísla jsou stejná.
 
 2. Pozitivní, negativní nebo nula:
 

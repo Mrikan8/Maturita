@@ -1,0 +1,1 @@
+# sestavte algoritmus pro výpočet součinu přirozených čísel menších nebo rovných N
