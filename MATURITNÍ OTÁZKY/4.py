@@ -1,20 +1,18 @@
-# Červená
-print('\033[91m' + 'ahoj' + '\033[0m')
+heslo = 'ahoj'
+max_pokusy = 3
+pokusy = 0
 
-# Zelená
-print('\033[92m' + 'ahoj' + '\033[0m')
 
-# Žlutá
-print('\033[93m' + 'ahoj' + '\033[0m')
-
-# Modrá
-print('\033[94m' + 'ahoj' + '\033[0m')
-
-# Fialová
-print('\033[95m' + 'ahoj' + '\033[0m')
-
-# Azurová
-print('\033[96m' + 'ahoj' + '\033[0m')
-
-# Bílá
-print('\033[97m' + 'ahoj' + '\033[0m')
+while pokusy < max_pokusy:
+    pokus = input('Zadej heslo: ')
+    if pokus == heslo:
+        print('Správně')
+        input()
+        break
+    else:
+        pokusy += 1
+        if pokusy < max_pokusy:
+            print(f'Zkus to znovu, máš ještě {max_pokusy - pokusy} pokusů')
+if pokusy == max_pokusy:
+    print('Konec, zadal si špatné heslo 3x za sebou')
+    input()
