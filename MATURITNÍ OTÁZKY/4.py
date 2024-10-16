@@ -1,18 +1,13 @@
-heslo = 'ahoj'
-max_pokusy = 3
-pokusy = 0
+heslo_zadane = 'ahoj'
 
-
-while pokusy < max_pokusy:
-    pokus = input('Zadej heslo: ')
-    if pokus == heslo:
-        print('Správně')
+for pokus in range(3):
+    heslo = input('Zadej heslo: ')
+    if heslo == heslo_zadane:
+        print('Správně!')
         input()
         break
     else:
-        pokusy += 1
-        if pokusy < max_pokusy:
-            print(f'Zkus to znovu, máš ještě {max_pokusy - pokusy} pokusů')
-if pokusy == max_pokusy:
-    print('Konec, zadal si špatné heslo 3x za sebou')
+        print(f'Špatně!, zbývají ještě {2 - pokus} pokusy')
+else:
+    print('Máš blok')
     input()
