@@ -1,11 +1,6 @@
-# sestavte algoritmus pro cýpočet součtu přirozených čísel větších rovno N1 a menších nebo rovno N2
+# řazení vět
+prvni = input('Kdo propadne?: ')
+druha = input('Proč propadne?: ')
+treti = input('Jak se to stalo?: ')
 
-N1 = int(input('Zadej číslo N1: '))
-N2 = int(input('Zadej číslo N2: '))
-i = N1
-soucet = 0
-
-while i <= N2:
-    soucet = soucet + i
-    i = i + 1
-print(i, soucet)
+print(f'{prvni} propadne, protože {druha}, {treti}.')
